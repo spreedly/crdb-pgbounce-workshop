@@ -1,0 +1,12 @@
+<h1>Fish</h1>
+
+<h2>Some fish are swimming in the pond</h2>
+
+<ul>
+  <% @fishes.each do |fish| %>
+    <li>
+      <%= fish.title %>
+      <%= fish.school %>
+    </li>
+  <% end %>
+</ul>
