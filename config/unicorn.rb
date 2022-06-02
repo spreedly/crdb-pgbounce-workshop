@@ -1,6 +1,6 @@
 # config/unicorn.rb
 # THIS IS THE SETTING THAT CONTROLS HOW MANY UNICORN WORKERS SPAWN ON STARTUP
-worker_processes Integer(32)
+worker_processes Integer(8)
 timeout 15
 preload_app true
 

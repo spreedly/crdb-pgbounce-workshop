@@ -1,18 +1,18 @@
 # Standard
-# development:
-#   adapter: cockroachdb
-#   port: 26257
-#   host: localhost
-#   user: root
-#   database: 'fishy'
-#   pool: 1
-
-# PGBOUNCER
 development:
   adapter: cockroachdb
-  port: 6257
+  port: 26257
   host: localhost
-  user: someuser
-  password: rooted
-  database: 'template1'
+  user: root
+  database: 'fishy'
   pool: 1
+
+# PGBOUNCER
+# development:
+#   adapter: cockroachdb
+#   port: 6257
+#   host: localhost
+#   user: someuser
+#   password: rooted
+#   database: 'template1'
+#   pool: 1
